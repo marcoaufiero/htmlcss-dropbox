@@ -43,6 +43,10 @@ body{
     flex-wrap: wrap;
 }
 
+.pd-vert-120{
+    padding: 120px 0;
+}
+
 /* common */
 
 h1{
@@ -52,7 +56,6 @@ h1{
 
 h2{
     font-size: 2.5rem;
-    margin: 50px 0;
 }
 
 h3{
@@ -291,7 +294,7 @@ ul li{
 }
 
 .company-center p{
-    padding-top: 25px;
+    padding: 25px 0;
 }
 
 .company-left,
@@ -344,3 +347,20 @@ ul li{
 .bg-square8{
     background-color: #FFD830;
 }
+
+/* blue box section */
+
+.blue-box{
+    background-color: #B4D0E7;
+}
+
+#blue-box-btn{
+    padding: 10px 15px;
+    background-color: white;
+    color: grey;
+}
+
+.blue-box-title{
+    flex-basis: 50%;
+}
+
