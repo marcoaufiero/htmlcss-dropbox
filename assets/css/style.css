@@ -1,6 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* utilities */
+
+.flex{
+    display: flex;
+}
+
+.f-space-between{
+    justify-content: space-between;
+}
+
+.f-align-center{
+    align-items: center;
+}
+
+.container-60{
+    width: 60%;
+    margin-inline: auto;
+}
+
+/* common */
+
+h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #0061FF;
+    color: white;
+    border: none;
+}
+
+/* header */
+
+header{
+    background-color: #B4D0E7;
+}
+
+nav{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 30px 10px;
+}
+
+nav *{
+    margin: 0 10px;
+}
+
+.jumbotron{
+    padding-top: 200px;
+}
+
+.jumbotron-sect{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.jumbo-txt{
+    flex-basis: 30%;
+}
+
+.jumbo-txt *{
+    margin-bottom: 20px;
+}
+
+.jumbo-img{
+    flex-basis: 70%;
+}
+
+.jumbo-img img{
+    width: 100%;
+}
+
+.fa-arrow-down{
+    padding-top: 50px;
+    font-size: 3rem;
+}
