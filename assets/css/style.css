@@ -94,11 +94,13 @@ nav *{
 }
 
 .jumbotron{
-    padding-top: 200px;
+    padding-top: 100px;
+    position: relative;
+    top: 70px;
 }
 
 .jumbotron-sect{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .jumbo-txt{
@@ -118,7 +120,7 @@ nav *{
 }
 
 .fa-arrow-down{
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 3rem;
 }
 
@@ -131,11 +133,12 @@ nav *{
 }
 
 .section-intro{
-    margin: 50px 0;
+    margin: 120px 0 50px 0;
 }
 
 .section-intro input{
     margin-left: 20px;
+    margin-top: 50px;
 }
 
 .divider{
@@ -151,6 +154,7 @@ ul li{
 
 .column ul li{
     margin: 15px 0;
+    text-indent: -10px;
 }
 
 .column{
@@ -261,6 +265,14 @@ ul li{
     margin-top: 150px;
 }
 
+.business h2{
+    padding-bottom: 50px;
+}
+
+.business > div:last-child{
+    padding-top: 100px;
+}
+
 .card{
     flex-basis: 30%;
     margin-bottom: 50px;
@@ -279,6 +291,9 @@ ul li{
 .company-center{
     background-color: #F5F5F5;
     padding: 50px;
+    overflow: scroll;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .company-center img{
