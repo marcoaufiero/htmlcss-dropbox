@@ -86,8 +86,14 @@ nav{
     top: 0;
     width: 100%;
     background-color: white;
-    padding: 30px 10px;
+    /* padding: 30px 10px; */
 }
+
+nav a{
+    padding: 30px 0;
+}
+
+
 
 nav *{
     margin: 0 10px;
@@ -470,4 +476,8 @@ footer a:hover{
 
 .faq-bar:hover .fa-chevron-up{
     display: none;
+}
+
+nav a:hover{
+    box-shadow: 0px 3px #0061FF;
 }
